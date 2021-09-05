@@ -1,14 +1,16 @@
 <img src="https://tania-dominguez.com/wp-content/uploads/2021/09/twig-template-php.png"/>
 1. What is Twig?
-    Twig is a modern template engine for PHP
+    <p>Twig is a modern template engine for PHP</p>
 
 2. System Requirements to use Twig
-    PHP +7.2.5
-    Composer
-    Twig
+    <ul>
+        <li>PHP +7.2.5
+        <li>Composer
+        <li>Twig
+    </ul>
 
 3. Description
-    Example for introduction to Twig of static simple page
+    <p>Example for introduction to Twig of static simple page</p>
 
 4. Contact
     <ul>
