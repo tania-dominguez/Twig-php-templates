@@ -28,7 +28,7 @@ class __TwigTemplate_f94450a4165ca892ee2db495a9b3291fc0197ef6b57f329b2871266aa2d
     public function block_content($context, array $blocks = array())
     {
         // line 4
-        echo "    <h1>Hi";
+        echo "    <h1>Hi,";
         echo twig_escape_filter($this->env, $this->getAttribute(($context["person"] ?? null), "name", array()), "html", null, true);
         echo " !</h1>
     <p>";
@@ -81,7 +81,7 @@ class __TwigTemplate_f94450a4165ca892ee2db495a9b3291fc0197ef6b57f329b2871266aa2d
         return new Twig_Source("{% extends 'layout.twig' %}
 
 {% block content %}
-    <h1>Hi {{ person.name }} !</h1>
+    <h1>Hi,  {{ person.name }} !</h1>
     <p>{{ 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid architecto asperiores autem blanditiis
         consequuntur doloremque eligendi facere illo illum incidunt ipsam iste itaque labore laborum magnam minima minus
         modi natus nesciunt quaerat qui quidem, reiciendis repudiandae suscipit temporibus vero voluptas voluptates?
@@ -98,6 +98,6 @@ class __TwigTemplate_f94450a4165ca892ee2db495a9b3291fc0197ef6b57f329b2871266aa2d
         reprehenderit repudiandae rerum sapiente sunt tempora temporibus ullam velit veniam voluptatem voluptatum?
         Aliquid aspernatur perferendis quo totam vel.' | markdown | striptags | truncate(200, true, '...')}}</p>
         <a href=\"/?p=presentation\">See more</a>
-{% endblock %}", "home.twig", "C:\\xampp\\htdocs\\Twig-sample\\templates\\home.twig");
+{% endblock %}", "home.twig", "C:\\xampp\\htdocs\\Twig-templates-php\\templates\\home.twig");
     }
 }
